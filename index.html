@@ -3,29 +3,68 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Search Flights with Expedia</title>
+  <title>Flight Search with Expedia | Seyahat Danışma</title>
   <style>
     body {
-      margin: 0;
-      padding: 0;
       font-family: Arial, sans-serif;
-      background-color: #f9f9f9;
+      background: #f9f9f9;
       display: flex;
-      justify-content: center;
+      flex-direction: column;
       align-items: center;
-      min-height: 100vh;
+      justify-content: center;
+      height: 100vh;
+      margin: 0;
+      padding: 2rem;
+      text-align: center;
+    }
+
+    h1 {
+      color: #00355f;
+      font-size: 2rem;
+      margin-bottom: 1rem;
+    }
+
+    p {
+      max-width: 600px;
+      font-size: 1.1rem;
+      color: #333;
+      margin-bottom: 2rem;
+    }
+
+    .button {
+      background-color: #00355f;
+      color: #fff;
+      padding: 1rem 2rem;
+      border: none;
+      border-radius: 8px;
+      font-size: 1rem;
+      text-decoration: none;
+      transition: background 0.3s ease;
+    }
+
+    .button:hover {
+      background-color: #0057a0;
+    }
+
+    img {
+      width: 180px;
+      margin-bottom: 1.5rem;
     }
   </style>
 </head>
 <body>
-  <div class="eg-widget"
-       data-widget="search"
-       data-program="us-expedia"
-       data-lobs="flights"
-       data-network="pz"
-       data-camref="1110l8aaB"
-       data-pubref="Slider">
-  </div>
-  <script class="eg-widgets-script" src="https://affiliates.expediagroup.com/products/widgets/assets/eg-widgets.js"></script>
+
+  <img src="https://upload.wikimedia.org/wikipedia/commons/3/3b/Expedia_Logo.svg" alt="Expedia Logo" />
+
+  <h1>Find Your Next Flight Easily</h1>
+  <p>
+    Compare hundreds of airlines and get the best prices for your next trip to Türkiye and beyond.
+    This tool is powered by Expedia. Book securely, quickly, and with confidence.
+  </p>
+
+  <a href="https://www.expedia.com/" class="button" target="_blank" rel="nofollow noopener">
+    Search Flights on Expedia
+  </a>
+
 </body>
 </html>
